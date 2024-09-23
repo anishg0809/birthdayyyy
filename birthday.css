@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ffcccb;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    ;
+}
+
+#countdown {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+}
+#playBtn,#pauseBtn{
+    margin: 0 auto;
+    margin-top: 5px;
+    background-color: white;
+
+
+
+}
+#messages{
+
+max-width: 800px;
+margin: 0 auto;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 10px ;
+margin-top: 10px ;
+margin-bottom: 10px ;
+}
+
+#quiz {
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+}
+
+#messageForm textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#messageForm button, #quizForm button {
+    padding: 10px 20px;
+    background-color: #ffcccb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#messageBoard {
+    margin-top: 20px;
+}
+
+#quizResult {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffcccb;
+    animation:move 2s infinite;
+    
+    
+}
